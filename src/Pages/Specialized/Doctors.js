@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import Specialized from './Specialized';
 
+
 const Doctors = () => {
     const [doctors, setDoctors] = useState([])
     useEffect(() => {

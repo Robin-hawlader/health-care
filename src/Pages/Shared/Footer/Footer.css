@@ -1,0 +1,19 @@
+.link-decorate a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+.link-decorate a:hover{
+    color:white;
+}
+.link-decorate{
+    margin-left: 40%;
+}
+.opening{
+    margin-left: 30%;
+}
+.footer{
+    padding: 20px;
+}

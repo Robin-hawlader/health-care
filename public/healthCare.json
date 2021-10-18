@@ -34,5 +34,35 @@
         "Service_name": "Dental Care",
         "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
         "thumbnail": "https://www.devsnews.com/wp/medidove/wp-content/uploads/2019/05/service-2.jpg"
+    },
+    {
+        "id": 7,
+        "Service_name": "Brain Cancer",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+        "thumbnail": "https://image.freepik.com/free-photo/medical-worker-looks-xray-film-skull-detect-signs-disease-health_359031-17569.jpg"
+    },
+    {
+        "id": 8,
+        "Service_name": "Psycological Motivation",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+        "thumbnail": "https://image.freepik.com/free-photo/brain-study-background-mental-health-care-medical-technology_53876-105237.jpg"
+    },
+    {
+        "id": 9,
+        "Service_name": "Hair Fall",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+        "thumbnail": "https://image.freepik.com/free-photo/woman-straightening-hair-bathroom_329181-2388.jpg"
+    },
+    {
+        "id": 10,
+        "Service_name": "Mothers Care",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+        "thumbnail": "https://image.freepik.com/free-photo/newborn-baby-sleeping-hands-mother-nose-collided_1150-19520.jpg"
+    },
+    {
+        "id": 10,
+        "Service_name": "Orthopedics Surgery",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+        "thumbnail": "https://image.shutterstock.com/image-photo/medical-healthcare-concept-doctor-checking-600w-746125714.jpg"
     }
 ]

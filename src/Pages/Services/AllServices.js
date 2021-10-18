@@ -11,6 +11,7 @@ const AllServices = () => {
     }, [])
     return (
         <div className='container my-5'>
+            <h1 className='text-center my-5'><span className='border-bottom border-4 border-danger'>Our All Services</span></h1>
             <Row xs={1} md={3} className="g-4">
 
                 {

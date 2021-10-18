@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Card } from 'react-bootstrap';
 import { useHistory, useParams } from 'react-router';
-import { Link } from 'react-router-dom';
 
 const ServiceDetail = () => {
     const { detailId } = useParams();
@@ -20,18 +19,20 @@ const ServiceDetail = () => {
     return (
         <div className='d-flex justify-content-center'>
             <div>
-                <h1>Service details : {detailId}</h1>
-                <Card className='text-center' style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={userDetails[0]?.thumbnail} />
-                    <Card.Body>
-                        <Card.Title>{userDetails[0]?.Service_name}</Card.Title>
-                        <Card.Text>
-                            {userDetails[0]?.description}
-                        </Card.Text>
+                <div>
+                    <h1>Service details : {detailId}</h1>
+                    <Card className='text-center' style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={userDetails[0]?.thumbnail} />
+                        <Card.Body>
+                            <Card.Title>{userDetails[0]?.Service_name}</Card.Title>
+                            <Card.Text>
+                                {userDetails[0]?.description}
+                            </Card.Text>
 
-                    </Card.Body>
-                    <Button onClick={gohomeHandler} variant="danger">Back to Service</Button>
-                </Card>
+                        </Card.Body>
+                        <Button onClick={gohomeHandler} variant="danger">Back to Service</Button>
+                    </Card>
+                </div>
             </div>
         </div>
     );

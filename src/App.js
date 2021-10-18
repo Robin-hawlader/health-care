@@ -9,6 +9,7 @@ import ServiceDetail from './Pages/ServiceDetail/ServiceDetail';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './Pages/Shared/Header/Login/PrivateRoute/PrivateRoute';
 import Doctors from './Pages/Specialized/Doctors';
+import Footer from './Pages/Shared/Footer/Footer';
 
 
 function App() {
@@ -26,15 +27,19 @@ function App() {
             </Route>
             <Route exact path='/service'>
               <AllServices></AllServices>
+              <Footer></Footer>
             </Route>
             <Route path='/doctor'>
               <Doctors></Doctors>
+              <Footer></Footer>
             </Route>
             <PrivateRoute path='/service/:detailId'>
               <ServiceDetail></ServiceDetail>
+              <Footer></Footer>
             </PrivateRoute>
             <Route path='/login'>
               <Login></Login>
+              <Footer></Footer>
             </Route>
           </Switch>
         </Router>
