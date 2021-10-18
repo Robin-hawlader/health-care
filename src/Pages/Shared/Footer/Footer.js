@@ -12,14 +12,14 @@ const Footer = () => {
     return (
         <div className='bg-dark footer'>
             <Container>
-                <Row>
-                    <Col className='text-light'>
+                <Row md={3}>
+                    <Col sm={12} className='text-light'>
                         <div>
                             <h2>{hospital} A good hospital Objective</h2>
                             <p>The best hospitals always prioritize the patient’s comfort and convenience at each stage of their journey. A good hospital should focus on making the patient’s experience as seamless as possible, right from appointment booking to discharge.</p>
                         </div>
                     </Col>
-                    <Col>
+                    <Col sm={12}>
                         <nav className='link-decorate text-light'>
                             <h3>Main Links</h3>
                             <Link to="/home">{angleRight} Home</Link> <br />
@@ -31,7 +31,7 @@ const Footer = () => {
                         </nav>
 
                     </Col>
-                    <Col className='text-light'>
+                    <Col sm={12} className='text-light'>
                         <div className='opening'>
                             <h3>Opening Hours</h3>
                             <p>{clock} 24/7 hours Open <br /><span className='text-danger'><b>Friday Open</b></span></p>

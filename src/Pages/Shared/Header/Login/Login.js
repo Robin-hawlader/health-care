@@ -8,7 +8,7 @@ const Login = () => {
 
     return (
         <div className='d-flex justify-content-center'>
-            <div className='mx-5 w-50  my-5'>
+            <div className='mx-5 w-75  my-5'>
                 <Form onSubmit={handleRegistration} className='background p-5'>
                     <h3>Please {isLogin ? 'Login' : 'Register'}</h3>
                     <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
