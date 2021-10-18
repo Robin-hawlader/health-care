@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "Service_name": "Eye",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+        "thumbnail": "https://www.devsnews.com/wp/medidove/wp-content/uploads/2019/05/service-1.jpg"
+    },
+    {
+        "id": 2,
+        "Service_name": "Blood Cancer",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+        "thumbnail": "https://www.devsnews.com/wp/medidove/wp-content/uploads/2019/05/service-6.jpg"
+    },
+    {
+        "id": 3,
+        "Service_name": "Neurology Sargery",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+        "thumbnail": "https://www.devsnews.com/wp/medidove/wp-content/uploads/2019/05/service-7.jpg"
+    },
+    {
+        "id": 4,
+        "Service_name": "Allergic Issue",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+        "thumbnail": "https://www.devsnews.com/wp/medidove/wp-content/uploads/2019/05/service-4.jpg"
+    },
+    {
+        "id": 5,
+        "Service_name": "Body Surgery",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+        "thumbnail": "https://www.devsnews.com/wp/medidove/wp-content/uploads/2019/05/service-5.jpg"
+    },
+    {
+        "id": 6,
+        "Service_name": "Dental Care",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+        "thumbnail": "https://www.devsnews.com/wp/medidove/wp-content/uploads/2019/05/service-2.jpg"
+    }
+]
