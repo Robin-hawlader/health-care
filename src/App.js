@@ -10,6 +10,7 @@ import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './Pages/Shared/Header/Login/PrivateRoute/PrivateRoute';
 import Doctors from './Pages/Specialized/Doctors';
 import Footer from './Pages/Shared/Footer/Footer';
+import NotFound from './Pages/NotFound/NotFound';
 
 
 function App() {
@@ -40,6 +41,9 @@ function App() {
             <Route path='/login'>
               <Login></Login>
               <Footer></Footer>
+            </Route>
+            <Route path='*'>
+              <NotFound></NotFound>
             </Route>
           </Switch>
         </Router>

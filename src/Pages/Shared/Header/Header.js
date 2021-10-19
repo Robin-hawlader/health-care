@@ -12,7 +12,7 @@ const Header = () => {
     const { user, logOut } = useAuth()
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" sticky="top" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" sticky="top" bg="secondary" variant="dark">
                 <Container>
                     <Navbar.Brand href="#home" className='d-flex justify-content-center align-items-center'><span className='fs-2 me-3'>{hospital}</span> MediDove</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
