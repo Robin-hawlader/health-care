@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "_name": "Rosalina D. Williamson",
+        "comment": "Good",
+        "thumbnail": "http://themepure.net/template/medidove-prv/medidove/img/team/member1.png"
+    },
+    {
+        "id": 2,
+        "_name": "Diconda PIran Will",
+        "comment": "Good",
+        "thumbnail": "http://themepure.net/template/medidove-prv/medidove/img/team/member2.png"
+    },
+    {
+        "id": 3,
+        "_name": "Diconda PIran Will",
+        "comment": "Excellent",
+        "thumbnail": "http://themepure.net/template/medidove-prv/medidove/img/team/member3.png"
+    },
+    {
+        "id": 4,
+        "_name": "Haliam Z. Dicolaz",
+        "comment": "Supper",
+        "thumbnail": "http://themepure.net/template/medidove-prv/medidove/img/team/member4.png"
+    },
+    {
+        "id": 5,
+        "_name": "Nicolas D. Case",
+        "comment": "Good Job",
+        "thumbnail": "http://themepure.net/template/medidove-prv/medidove/img/team/member5.png"
+    },
+    {
+        "id": 6,
+        "_name": "Phumdon H. Norman",
+        "comment": "Nice",
+        "thumbnail": "http://themepure.net/template/medidove-prv/medidove/img/team/member6.png"
+    }
+]
