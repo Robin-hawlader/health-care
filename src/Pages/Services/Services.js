@@ -12,7 +12,7 @@ const Services = () => {
     const services = card.slice(0, 7);
     return (
         <div className='container my-5'>
-            <h1 className='text-center my-5'><span className='border-bottom border-4 border-danger'>Our Supper Services</span></h1>
+            <h1 className='text-center my-5'><span className='border-bottom border-4 border-danger'>Our Supper duper Services</span></h1>
             <Row xs={1} md={3} className="g-4">
                 {
                     services.map(service => <Service key={service.id} service={service}></Service>)

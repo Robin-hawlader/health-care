@@ -10,9 +10,9 @@ const useFirebase = () => {
     const [password, setPassword] = useState('')
     const [isLogin, setIsLogin] = useState(false);
 
-
-
     const auth = getAuth();
+
+
     const googleProvider = new GoogleAuthProvider();
     const signInUsingGooggle = () => {
         setIsLoading(true)
@@ -99,9 +99,6 @@ const useFirebase = () => {
     const toggleLogin = e => {
         setIsLogin(e.target.checked);
     }
-
-
-
 
 
     const logOut = () => {
